@@ -6,14 +6,14 @@ export default function Home() {
   return (
     <div className="bgimg">
       <Header />
-      <div className="justify-center align-middle flex py-10">
+      <div className="justify-center align-middle flex  py-16">
         <Carousel
           swipeable="true"
           stopOnHover="true"
           transitionTime={30}
           interval={30}
           autoFocus="true"
-          width={920}
+          width={800}
         >
           <div>
             <img src="https://user-images.githubusercontent.com/88650559/204961217-3cdb5c14-af31-4f68-af19-ae8e4334b0b2.png" />

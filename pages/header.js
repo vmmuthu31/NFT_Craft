@@ -48,7 +48,11 @@ export default function Header() {
             aria-label="Global"
           >
             <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
-              <h1 className="h-8 px-12 text-3xl font-bold text-white">
+              <img
+                className="w-28"
+                src="https://raw.githubusercontent.com/JEC-Gryffindors/Python-Components/master/%5Bremoval.ai%5D_tmp-638825f6c4549.png"
+              />
+              <h1 className="h-8 py-7  text-3xl font-bold text-white">
                 NFT Crafter
               </h1>
             </div>
@@ -91,9 +95,10 @@ export default function Header() {
               <div className="flex h-9 items-center justify-between">
                 <div className="flex">
                   <a href="#" className="-m-1.5 p-1.5">
-                    <h1 className="h-8 text-3xl font-bold text-white">
-                      NFT Crafter
-                    </h1>
+                    <img
+                      className="w-28"
+                      src="https://raw.githubusercontent.com/JEC-Gryffindors/Python-Components/master/%5Bremoval.ai%5D_tmp-638825f6c4549.png"
+                    />
                   </a>
                 </div>
                 <div className="flex">
