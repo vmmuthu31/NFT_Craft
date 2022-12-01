@@ -7,7 +7,7 @@ const navigation = [
   { name: "Home", href: "/" },
   { name: "Marketplace", href: "/Marketplace" },
   { name: "Our Team", href: "/Team" },
-  { name: "Abstract", href: "#" },
+  { name: "Abstract", href: "/Abstract" },
 ];
 
 export default function Header() {
