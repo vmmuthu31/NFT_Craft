@@ -24,7 +24,7 @@ export default function Example() {
                       <div className="sm:flex">
                         <button
                           type="submit"
-                          className="block w-full  py-3 px-4 rounded-md shadow border-solid border-2 border-slate-900  text-white font-medium hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2  focus:ring-offset-gray-900"
+                          className="block w-full  py-3 px-4 rounded-md shadow border-solid border-2  border-slate-50  text-white font-medium hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2  focus:ring-offset-gray-900"
                         >
                           LET THE GAME BEGIN
                         </button>
@@ -46,7 +46,7 @@ export default function Example() {
                   {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
                   <img
                     className="w-full animme lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                    src="https://github.com/JEC-Gryffindors/Python-Components/blob/master/11.png?raw=true"
+                    src="https://raw.githubusercontent.com/JEC-Gryffindors/Python-Components/master/22222.png"
                     alt=""
                   />
                 </div>

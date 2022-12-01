@@ -6,7 +6,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "Marketplace", href: "/Marketplace" },
-  { name: "Our Team", href: "#" },
+  { name: "Our Team", href: "/Team" },
   { name: "Abstract", href: "#" },
 ];
 
@@ -48,7 +48,9 @@ export default function Header() {
             aria-label="Global"
           >
             <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
-              <h1 className="h-8 text-3xl font-bold text-white">NFT Crafter</h1>
+              <h1 className="h-8 px-12 text-3xl font-bold text-white">
+                NFT Crafter
+              </h1>
             </div>
             <div className="flex lg:hidden">
               <button
@@ -67,7 +69,7 @@ export default function Header() {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="font-semibold text-white hover:text-white"
+                    className="font-semibold px-3 py-3 text-white hover:text-white"
                   >
                     {item.name}
                   </a>
@@ -112,7 +114,7 @@ export default function Header() {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-white hover:bg-gray-400/10"
+                        className="-mx-3 block rounded-lg py-3 px-3 text-base font-semibold leading-7 text-white hover:bg-gray-400/10"
                       >
                         {item.name}
                       </a>
