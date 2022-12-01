@@ -1,11 +1,19 @@
-import Head from "next/head";
-import Image from "next/image";
-import Hero from "./Hero";
-import styles from "../styles/Home.module.css";
+/* This example requires Tailwind CSS v3.0+ */
+import { useState } from "react";
+import { Dialog } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
-export default function Home() {
+const navigation = [
+  { name: "Home", href: "/" },
+  { name: "Marketplace", href: "/Marketplace" },
+  { name: "Our Team", href: "#" },
+  { name: "Abstract", href: "#" },
+];
+
+export default function Header() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
-    <div className="bgimg">
+    <div>
       <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
         <svg
           className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
@@ -113,7 +121,7 @@ export default function Home() {
                   <div className="py-6">
                     <a
                       href="#"
-                      className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10"
+                      className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-white hover:bg-gray-400/10"
                     >
                       Sign in
                     </a>
