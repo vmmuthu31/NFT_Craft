@@ -1,0 +1,29 @@
+[project]
+protostar-version = "0.8.1"
+lib-path = "lib"
+
+[contracts]
+main = ["src/main.cairo"]
+nftcraft = ["src/nftcraft.cairo"]
+
+# https://github.com/Shard-Labs/starknet-devnet
+# ["profile.devnet.protostar.deploy"]
+# gateway-url="http://127.0.0.1:5050/"
+
+
+# Shared Configuration Profile
+# https://docs.swmansion.com/protostar/docs/tutorials/configuration-file
+[profile.devnet.project]
+gateway-url = "http://127.0.0.1:5050/"
+chain-id = 1536727068981429685321
+
+[profile.testnet-2.project]
+gateway-url = "https://alpha4-2.starknet.io"
+chain-id = 1536727068981429685321
+
+["profile.testnet.protostar.deploy"]
+network="testnet"
+
+["profile.mainnet.protostar.deploy"]
+network="mainnet"
+
