@@ -7,6 +7,8 @@ This is the on-chain minecraft like game with Account Abstraction Session key
 -> The players progress will be stored <br/>
 -> Each new block is a NFT owned by the player
 
+# Tech Stack
+
 ## Development Note
 
 ### Cairo smart Contract
