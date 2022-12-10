@@ -9,6 +9,7 @@ This is the on-chain minecraft like game with Account Abstraction Session key
 
 # Tech Stack
 -> NEXTJS
+-> Cairo 
 
 ## Development Note
 
