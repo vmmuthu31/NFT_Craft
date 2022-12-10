@@ -3,6 +3,7 @@
 This is the on-chain minecraft like game with Account Abstraction Session key
 
 # What it was Like
+-> Creating own world in a minecraft like environment
 
 ## Development Note
 
