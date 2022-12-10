@@ -30,5 +30,9 @@ https://github.com/Block-Developers/NFT_Hunters/tree/master/games/contracts/warp
 - It was difficult to use warp with protostar at first, but we did it
 - This enables complicated smart contract development
 
+# Demo Page
+![image](https://user-images.githubusercontent.com/88650559/206828353-3eb98f48-3e99-4ea8-8e1e-d2e31a73cc53.png)
+
+
 # Presentation Link
 Canva Presentation Link: https://www.canva.com/design/DAFTf8Yikh4/3Bw_jBz2GBiDUCjDKnrgPA/view
