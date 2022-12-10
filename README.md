@@ -9,10 +9,10 @@ This is the on-chain minecraft like game with Account Abstraction Session key
 
 # Tech Stack
 -> NEXTJS <br/>
--> ThreeJS
--> Cairo 
--> Argent X
--> Warp
+-> ThreeJS <br/>
+-> Cairo  <br/>
+-> Argent X <br/>
+-> Warp <br/>
 
 ## Development Note
 
