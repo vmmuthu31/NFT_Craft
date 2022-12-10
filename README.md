@@ -19,4 +19,4 @@ https://github.com/Block-Developers/NFT_Hunters/tree/master/games/contracts/warp
 - This enables complicated smart contract development
 
 # Presentation Link
-Canva Presentation Link:
+Canva Presentation Link: https://www.canva.com/design/DAFTf8Yikh4/3Bw_jBz2GBiDUCjDKnrgPA/view
