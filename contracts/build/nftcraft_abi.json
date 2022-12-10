@@ -1,0 +1,460 @@
+[
+    {
+        "members": [
+            {
+                "name": "low",
+                "offset": 0,
+                "type": "felt"
+            },
+            {
+                "name": "high",
+                "offset": 1,
+                "type": "felt"
+            }
+        ],
+        "name": "Uint256",
+        "size": 2,
+        "type": "struct"
+    },
+    {
+        "data": [
+            {
+                "name": "owner",
+                "type": "felt"
+            },
+            {
+                "name": "operator",
+                "type": "felt"
+            },
+            {
+                "name": "approved",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "ApprovalForAll_17307eab",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "owner",
+                "type": "felt"
+            },
+            {
+                "name": "spender",
+                "type": "felt"
+            },
+            {
+                "name": "id",
+                "type": "Uint256"
+            }
+        ],
+        "keys": [],
+        "name": "Approval_8c5be1e5",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "__warp_6_from",
+                "type": "felt"
+            },
+            {
+                "name": "to",
+                "type": "felt"
+            },
+            {
+                "name": "id",
+                "type": "Uint256"
+            }
+        ],
+        "keys": [],
+        "name": "Transfer_ddf252ad",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "x",
+                "type": "Uint256"
+            },
+            {
+                "name": "y",
+                "type": "Uint256"
+            },
+            {
+                "name": "z",
+                "type": "Uint256"
+            },
+            {
+                "name": "modelId",
+                "type": "Uint256"
+            },
+            {
+                "name": "textureId",
+                "type": "Uint256"
+            },
+            {
+                "name": "tokenId",
+                "type": "Uint256"
+            }
+        ],
+        "keys": [],
+        "name": "Set_1d170fcf",
+        "type": "event"
+    },
+    {
+        "inputs": [
+            {
+                "name": "__warp_4_x",
+                "type": "Uint256"
+            },
+            {
+                "name": "__warp_5_y",
+                "type": "Uint256"
+            },
+            {
+                "name": "__warp_6_z",
+                "type": "Uint256"
+            },
+            {
+                "name": "__warp_7_modelId",
+                "type": "Uint256"
+            },
+            {
+                "name": "__warp_8_textureId",
+                "type": "Uint256"
+            }
+        ],
+        "name": "set_eccd65dc",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "tokenId",
+                "type": "Uint256"
+            }
+        ],
+        "name": "tokenURI_c87b56dd",
+        "outputs": [
+            {
+                "name": "__warp_10_len",
+                "type": "felt"
+            },
+            {
+                "name": "__warp_10",
+                "type": "felt*"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "__warp_11__i0",
+                "type": "Uint256"
+            },
+            {
+                "name": "__warp_12__i1",
+                "type": "Uint256"
+            },
+            {
+                "name": "__warp_13__i2",
+                "type": "Uint256"
+            }
+        ],
+        "name": "locations_e27f67a3",
+        "outputs": [
+            {
+                "name": "__warp_14",
+                "type": "Uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "__warp_15__i0",
+                "type": "Uint256"
+            }
+        ],
+        "name": "modelIds_19e2a109",
+        "outputs": [
+            {
+                "name": "__warp_16",
+                "type": "Uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "__warp_17__i0",
+                "type": "Uint256"
+            }
+        ],
+        "name": "textureIds_deebb7e9",
+        "outputs": [
+            {
+                "name": "__warp_18",
+                "type": "Uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "length_1f7b6d32",
+        "outputs": [
+            {
+                "name": "__warp_19",
+                "type": "Uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "totalSupply_18160ddd",
+        "outputs": [
+            {
+                "name": "__warp_20",
+                "type": "Uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "constructor",
+        "outputs": [],
+        "type": "constructor"
+    },
+    {
+        "inputs": [
+            {
+                "name": "__warp_8_id",
+                "type": "Uint256"
+            }
+        ],
+        "name": "ownerOf_6352211e",
+        "outputs": [
+            {
+                "name": "__warp_9_owner",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "__warp_10_owner",
+                "type": "felt"
+            }
+        ],
+        "name": "balanceOf_70a08231",
+        "outputs": [
+            {
+                "name": "__warp_11",
+                "type": "Uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "__warp_14_spender",
+                "type": "felt"
+            },
+            {
+                "name": "__warp_15_id",
+                "type": "Uint256"
+            }
+        ],
+        "name": "approve_095ea7b3",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "__warp_17_operator",
+                "type": "felt"
+            },
+            {
+                "name": "__warp_18_approved",
+                "type": "felt"
+            }
+        ],
+        "name": "setApprovalForAll_a22cb465",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "__warp_22_from",
+                "type": "felt"
+            },
+            {
+                "name": "__warp_23_to",
+                "type": "felt"
+            },
+            {
+                "name": "__warp_24_id",
+                "type": "Uint256"
+            }
+        ],
+        "name": "safeTransferFrom_42842e0e",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "__warp_25_from",
+                "type": "felt"
+            },
+            {
+                "name": "__warp_26_to",
+                "type": "felt"
+            },
+            {
+                "name": "__warp_27_id",
+                "type": "Uint256"
+            },
+            {
+                "name": "data_len",
+                "type": "felt"
+            },
+            {
+                "name": "data",
+                "type": "felt*"
+            }
+        ],
+        "name": "safeTransferFrom_b88d4fde",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "__warp_28_interfaceId",
+                "type": "felt"
+            }
+        ],
+        "name": "supportsInterface_01ffc9a7",
+        "outputs": [
+            {
+                "name": "__warp_29",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "name_06fdde03",
+        "outputs": [
+            {
+                "name": "__warp_38_len",
+                "type": "felt"
+            },
+            {
+                "name": "__warp_38",
+                "type": "felt*"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "symbol_95d89b41",
+        "outputs": [
+            {
+                "name": "__warp_39_len",
+                "type": "felt"
+            },
+            {
+                "name": "__warp_39",
+                "type": "felt*"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "__warp_40__i0",
+                "type": "Uint256"
+            }
+        ],
+        "name": "getApproved_081812fc",
+        "outputs": [
+            {
+                "name": "__warp_41",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "__warp_42__i0",
+                "type": "felt"
+            },
+            {
+                "name": "__warp_43__i1",
+                "type": "felt"
+            }
+        ],
+        "name": "isApprovedForAll_e985e9c5",
+        "outputs": [
+            {
+                "name": "__warp_44",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "__warp_19_from",
+                "type": "felt"
+            },
+            {
+                "name": "__warp_20_to",
+                "type": "felt"
+            },
+            {
+                "name": "__warp_21_id",
+                "type": "Uint256"
+            }
+        ],
+        "name": "transferFrom_23b872dd",
+        "outputs": [],
+        "type": "function"
+    }
+]

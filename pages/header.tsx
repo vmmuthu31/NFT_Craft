@@ -1,6 +1,7 @@
 /* This example requires Tailwind CSS v3.0+ */
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
+import { getStarknet } from "get-starknet";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
@@ -11,7 +12,22 @@ const navigation = [
 ];
 
 export default function Header() {
+  const [account, setAccount] = useState();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const connectWallet = async () => {
+    try {
+      const starknet = getStarknet();
+      // const starknet = await connect();
+      await starknet!.enable({
+        starknetVersion: "v4",
+      } as any);
+      // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+      setAccount(starknet?.account);
+    } catch (e) {
+      console.error(e);
+    }
+  };
   return (
     <div>
       <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
@@ -79,12 +95,19 @@ export default function Header() {
                   </a>
                 ))}
               </div>
-              <a
-                href="#"
+              {!account &&<button
                 className="py-3 px-5 rounded-lg inline-block  text-sm font-semibold leading-6 text-white shadow-sm ring-1  bg-red-600 hover:ring-red-700"
+                hidden={account}
+                onClick={connectWallet}
               >
-                Sign in
-              </a>
+                Connect
+              </button> }
+              
+              {account && (
+                <div>
+                  <p className="py-3 px-5 rounded-lg inline-block  text-sm font-semibold leading-6 text-white shadow-sm ring-1 hover:bg-lime-500 bg-lime-500" >Connected</p>
+                </div>
+              )}
             </div>
           </nav>
           <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>

@@ -1,5 +1,5 @@
 {
-  "extends": ["standard", "eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier","next/core-web-vitals"],
+  "extends": ["standard", "eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier"],
   "plugins": ["simple-import-sort", "import"],
   "ignorePatterns": ["**/sequelize/entity/*.ts"],
   "rules": {
