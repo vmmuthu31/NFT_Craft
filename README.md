@@ -4,7 +4,7 @@ This is the on-chain minecraft like game with Account Abstraction Session key
 
 # What it was Like
 -> Creating own world in a minecraft like environment <br/>
--> The players progress will be stored
+-> The players progress will be stored <br/>
 -> Each new block is a NFT owned by the player
 
 ## Development Note
