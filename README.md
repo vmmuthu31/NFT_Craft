@@ -8,6 +8,7 @@ This is the on-chain minecraft like game with Account Abstraction Session key
 -> Each new block is a NFT owned by the player
 
 # Tech Stack
+-> NEXTJS
 
 ## Development Note
 
