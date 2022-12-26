@@ -22,7 +22,7 @@ export default function Header() {
       await starknet!.enable({
         starknetVersion: "v4",
       } as any);
-
+      // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
       setAccount(starknet?.account);
     } catch (e) {
       console.error(e);
@@ -95,14 +95,14 @@ export default function Header() {
                   </a>
                 ))}
               </div>
-              {!account && <button
+              {!account &&<button
                 className="py-3 px-5 rounded-lg inline-block  text-sm font-semibold leading-6 text-white shadow-sm ring-1  bg-red-600 hover:ring-red-700"
                 hidden={account}
                 onClick={connectWallet}
               >
                 Connect
-              </button>}
-
+              </button> }
+              
               {account && (
                 <div>
                   <p className="py-3 px-5 rounded-lg inline-block  text-sm font-semibold leading-6 text-white shadow-sm ring-1 hover:bg-lime-500 bg-lime-500" >Connected</p>
